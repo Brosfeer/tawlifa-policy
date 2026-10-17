@@ -84,11 +84,11 @@ Tawlifa is a general-audience culinary utility designed for users aged 13 and ab
 
 If you have questions or feedback regarding this Privacy Policy:
 - **Developer / Publisher:** SayaSky
-- **Support Email:** [alsheikh0202@gmail.com](mailto:alsheikh0202@gmail.com)
+- **Support:** [Contact Support Team](mailto:alsheikh0202@gmail.com)
 - **Live Policy Page:** [https://brosfeer.github.io/tawlifa-policy/](https://brosfeer.github.io/tawlifa-policy/)
 
 ---
 
 *© 2026 Tawlifa (تَوْلِيفَة) — Crafted with ❤️ by SayaSky.*  
-*Support & Inquiries: [alsheikh0202@gmail.com](mailto:alsheikh0202@gmail.com)*
+*Inquiries: [Contact Support](mailto:alsheikh0202@gmail.com)*
 
