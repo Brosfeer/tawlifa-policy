@@ -1,7 +1,7 @@
 # Privacy Policy for Tawlifa (تَوْلِيفَة)
-*Last Updated: October 17, 2026*
+*Last Updated: October 2026*
 
-**Official Hosted GitHub Page (Google Play Compliance URL):**  
+**Official Hosted Google Play Policy URL:**  
 👉 [https://brosfeer.github.io/tawlifa-policy/](https://brosfeer.github.io/tawlifa-policy/)
 
 ---
@@ -12,17 +12,17 @@ Tawlifa is engineered with a **local-first, privacy-first architecture**: we do 
 
 ---
 
-## 1. Information Collection & Use
-
-### A. Information We Do NOT Collect
+## 1. Information We Do NOT Collect
 - **No Personal Identifiers:** We do not require registration, login, or accounts. We do not collect names, email addresses, phone numbers, postal addresses, or contacts.
 - **No Location Tracking:** We do not request, access, or track GPS, fine location, or coarse location coordinates.
 - **No Financial Data:** We do not collect credit card details, bank information, or payment transactions.
-- **No Biometrics or Sensor snooping:** No camera, microphone, or health sensors are monitored or accessed.
+- **No Camera or Microphone Snooping:** The app does not access your microphone, camera, or private photo library.
 
-### B. On-Device Local Storage (Local-First)
-Tawlifa saves your culinary data directly in your device's isolated application sandbox via encrypted storage (`AsyncStorage`):
-- Customized spice blend formulas, weight calculations, and Scoville heat levels
+---
+
+## 2. On-Device Local Storage
+Tawlifa saves your culinary data directly in your device's internal storage:
+- Customized spice blend formulas, weight calculations, and heat levels
 - Saved bookmarks and favorite recipes
 - Temporary ingredient shopping lists and checked grocery items
 - Personal recipe notes and cooking simmer countdown states
@@ -32,43 +32,39 @@ Tawlifa saves your culinary data directly in your device's isolated application 
 
 ---
 
-## 2. Analytics & Crash Diagnostics
+## 3. App Stability & Anonymous Diagnostics
+To maintain application stability and diagnose errors across different Android devices:
+- **Crash Diagnostics:** Collects anonymous crash stack traces, device hardware model, and operating system versions to diagnose unhandled exceptions.
+- **Anonymous Usage Insights:** Collects pseudonymous app interaction metrics (such as recipe views and search queries) to identify popular culinary trends.
 
-To maintain application stability, diagnose crashes, and improve recipe offerings:
-- **Firebase Crashlytics (`@react-native-firebase/crashlytics`):** Collects anonymous crash stack traces, device hardware model, and operating system versions to diagnose unhandled exceptions.
-- **Firebase Analytics (`@react-native-firebase/analytics`):** Collects pseudonymous app interaction metrics (such as recipe views, search queries, and screen transitions) to identify popular culinary trends.
-
-**No Third-Party Advertising:** Tawlifa contains **zero third-party advertisements**, no ad tracking SDKs, and does not sell or share data with data brokers. All diagnostic telemetry is transmitted securely over TLS/HTTPS directly to Google Firebase servers.
+**No Advertising:** Tawlifa contains **zero third-party advertisements**, no ad tracking SDKs, and does not sell or share data with data brokers. All diagnostic telemetry is transmitted securely over TLS/HTTPS directly to Google servers.
 
 ---
 
-## 3. Android System Permissions Hygiene
+## 4. Android System Permissions
 
 The App requests only standard, essential Android permissions:
 - `android.permission.INTERNET`: Used to load online culinary catalog photography and recipe updates over HTTPS.
-- `android.permission.VIBRATE`: Delivers subtle tactile haptic pulses when cooking timers complete and when adjusting spice heat levels.
-- `android.permission.READ_EXTERNAL_STORAGE` (`maxSdkVersion="32"`): Legacy compatibility fallback for legacy Android devices (Android 12 and below).
+- `android.permission.VIBRATE`: Delivers subtle tactile haptic pulses when cooking timers complete.
 
 ---
 
-## 4. Google Play Data Safety Reference
+## 5. Google Play Data Safety Reference
 
 | Data Category | Collected? | Shared? | Processing Type | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
 | **Personal Identifiers** (Name, Email, Phone) | **No** | **No** | N/A | No accounts required |
 | **Location Data** (GPS/Coarse) | **No** | **No** | N/A | Not requested |
 | **Financial Info** | **No** | **No** | N/A | No payments in app |
-| **Spice Formulas & Notes** | **On-Device** | **No** | Local Sandbox | Core App Functionality |
-| **Crash Diagnostics** | **Yes** | **No** | Encrypted Transit | App Stability (Firebase) |
-| **App Performance Metrics** | **Yes** | **No** | Encrypted Transit | Diagnostics (Firebase) |
-| **Device / Instance Identifiers** | **Yes** | **No** | Encrypted Transit | Firebase App Check / Token |
+| **Spice Formulas & Notes** | **On-Device** | **No** | Phone Storage Only | Core App Functionality |
+| **Crash Diagnostics** | **Yes** | **No** | Encrypted Transit | App Stability (Google) |
 
-- **Security in Transit:** All telemetry transmitted to Firebase is encrypted using TLS/HTTPS.
-- **Account Deletion:** Because all user data is stored locally and no server accounts exist, users can delete all data permanently at any time by clearing application storage or uninstalling the app.
+- **Security in Transit:** All telemetry transmitted is encrypted using TLS/HTTPS.
+- **Account & Data Deletion:** Because all user data is stored locally and no server accounts exist, users can delete all data permanently at any time by clearing application storage or uninstalling the app.
 
 ---
 
-## 5. Data Retention & Deletion
+## 6. Data Retention & Deletion
 
 You retain absolute control over your culinary data:
 1. **Within the App:** You can clear search history and remove cart items directly at any time.
@@ -78,23 +74,15 @@ You retain absolute control over your culinary data:
 
 ---
 
-## 6. Children's Privacy (COPPA)
+## 7. Children's Privacy
 
 Tawlifa is a general-audience culinary utility designed for users aged 13 and above. We do not knowingly solicit or collect personal information from children under the age of 13.
 
 ---
 
-## 7. Native Sharing
-
-When using the "Share Recipe" feature, Tawlifa invokes the native Android Share dialog. Any recipe text shared is routed solely through the third-party application you explicitly choose (e.g., WhatsApp, Telegram, Messages).
-
----
-
-## 8. Developer Contact & Support
+## 8. Contact & Support
 
 If you have questions or feedback regarding this Privacy Policy:
-- **Developer / Publisher:** Sharafaldain Al-Sheikh
-- **Email:** [sharafaldain@nexumind.com](mailto:sharafaldain@nexumind.com)
-- **Repository:** [https://github.com/Brosfeer/tawlifa-mobile](https://github.com/Brosfeer/tawlifa-mobile)
-- **Live Policy GitHub Page:** [https://brosfeer.github.io/tawlifa-policy/](https://brosfeer.github.io/tawlifa-policy/)
-- **Application ID:** `com.sayasky.tawlifa`
+- **Publisher:** Tawlifa Team
+- **Support Email:** [alsheikh0202@gmail.com](mailto:alsheikh0202@gmail.com)
+- **Live Policy Page:** [https://brosfeer.github.io/tawlifa-policy/](https://brosfeer.github.io/tawlifa-policy/)
