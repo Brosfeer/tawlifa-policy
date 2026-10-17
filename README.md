@@ -1,7 +1,7 @@
 # Privacy Policy for Tawlifa (تَوْلِيفَة)
 *Last Updated: October 2026*
 
-**Official Hosted Google Play Policy URL:**  
+**Hosted Privacy Policy URL:**  
 👉 [https://brosfeer.github.io/tawlifa-policy/](https://brosfeer.github.io/tawlifa-policy/)
 
 ---
@@ -49,7 +49,7 @@ The App requests only standard, essential Android permissions:
 
 ---
 
-## 5. Google Play Data Safety Reference
+## 5. Data Safety & Protection Reference
 
 | Data Category | Collected? | Shared? | Processing Type | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
