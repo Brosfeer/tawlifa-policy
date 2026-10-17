@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tawlifa (تَوْلِيفَة) — Privacy Policy & Legal Disclosures</title>
+  <meta name="description" content="Official Google Play Privacy Policy and Data Safety Disclosures for Tawlifa (تَوْلِيفَة) Mobile Application.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-green: #2ade00;
+      --brand-dark: #15803d;
+      --brand-light: #f0fdf4;
+      --slate-900: #0f172a;
+      --slate-800: #1e293b;
+      --slate-700: #334155;
+      --slate-600: #475569;
+      --slate-500: #64748b;
+      --slate-200: #e2e8f0;
+      --slate-100: #f1f5f9;
+      --slate-50: #f8fafc;
+      --white: #ffffff;
+      --font-en: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-ar: 'Cairo', 'Noto Naskh Arabic', Tahoma, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-en);
+      background-color: var(--slate-50);
+      color: var(--slate-800);
+      line-height: 1.65;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body.lang-ar {
+      font-family: var(--font-ar);
+      direction: rtl;
+    }
+
+    /* Container */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header & Navigation */
+    header {
+      background: var(--white);
+      border-bottom: 1px solid var(--slate-200);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--slate-900);
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--brand-green), #16a34a);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--slate-900);
+      font-weight: 800;
+      font-size: 20px;
+      box-shadow: 0 2px 8px rgba(42, 222, 0, 0.25);
+    }
+
+    .brand-text h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .brand-text p {
+      font-size: 0.8rem;
+      color: var(--slate-500);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .lang-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--slate-100);
+      border: 1px solid var(--slate-200);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--slate-700);
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn:hover {
+      background: var(--brand-light);
+      border-color: var(--brand-green);
+      color: var(--slate-900);
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: linear-gradient(180deg, var(--white) 0%, var(--slate-50) 100%);
+      padding: 48px 0 32px;
+      border-bottom: 1px solid var(--slate-200);
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--brand-light);
+      border: 1px solid #bbf7d0;
+      color: var(--brand-dark);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.825rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .hero h2 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin-bottom: 12px;
+      line-height: 1.25;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.875rem;
+      color: var(--slate-600);
+      margin-top: 16px;
+    }
+
+    .hero-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .hero-meta strong {
+      color: var(--slate-800);
+    }
+
+    /* Highlights Grid */
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin: 32px 0 48px;
+    }
+
+    .highlight-card {
+      background: var(--white);
+      border: 1px solid var(--slate-200);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border-color: #bbf7d0;
+    }
+
+    .highlight-icon {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    .highlight-card h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--slate-900);
+      margin-bottom: 6px;
+    }
+
+    .highlight-card p {
+      font-size: 0.85rem;
+      color: var(--slate-600);
+      line-height: 1.5;
+    }
+
+    /* Content Layout */
+    .content-wrapper {
+      padding: 32px 0 64px;
+    }
+
+    .section-card {
+      background: var(--white);
+      border: 1px solid var(--slate-200);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 28px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .section-card h3 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--slate-900);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 2px solid var(--slate-100);
+      padding-bottom: 12px;
+    }
+
+    .section-card h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--slate-800);
+      margin: 20px 0 10px;
+    }
+
+    .section-card p {
+      margin-bottom: 14px;
+      color: var(--slate-700);
+    }
+
+    .section-card ul, .section-card ol {
+      margin: 12px 0 16px;
+      padding-inline-start: 24px;
+    }
+
+    .section-card li {
+      margin-bottom: 8px;
+      color: var(--slate-700);
+    }
+
+    /* Data Safety Table */
+    .table-responsive {
+      overflow-x: auto;
+      margin: 20px 0;
+      border-radius: 10px;
+      border: 1px solid var(--slate-200);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: start;
+      font-size: 0.875rem;
+    }
+
+    thead {
+      background: var(--slate-100);
+      color: var(--slate-900);
+      font-weight: 700;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--slate-200);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background: #fafaf9;
+    }
+
+    .badge-no {
+      background: #f1f5f9;
+      color: var(--slate-600);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .badge-yes {
+      background: #dcfce7;
+      color: #166534;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .badge-local {
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    /* Callout Box */
+    .callout {
+      background: var(--slate-50);
+      border-inline-start: 4px solid var(--brand-green);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+      color: var(--slate-700);
+      font-size: 0.925rem;
+    }
+
+    body.lang-ar .callout {
+      border-inline-start: 4px solid var(--brand-green);
+      border-radius: 8px 0 0 8px;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--white);
+      border-top: 1px solid var(--slate-200);
+      padding: 32px 0;
+      color: var(--slate-500);
+      font-size: 0.875rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--brand-dark);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .lang-content {
+      display: none;
+    }
+
+    .lang-content.active {
+      display: block;
+    }
+
+    /* Print optimization */
+    @media print {
+      header, .lang-btn, footer {
+        display: none !important;
+      }
+      .section-card {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#" class="brand">
+        <div class="brand-icon">ت</div>
+        <div class="brand-text">
+          <h1>Tawlifa | تَوْلِيفَة</h1>
+          <p>com.sayasky.tawlifa</p>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <button id="langToggleBtn" class="lang-btn" onclick="toggleLanguage()">
+          <span id="langIcon">🌐</span>
+          <span id="langLabel">العربية</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- ENGLISH VERSION (Default / Google Review)  -->
+  <!-- ========================================== -->
+  <div id="content-en" class="lang-content active">
+    <!-- Hero Banner -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge">✓ Google Play Store Verified Policy</div>
+        <h2>Privacy Policy & Legal Disclosures</h2>
+        <p>Comprehensive information regarding data protection, user privacy, and permissions hygiene for the Tawlifa mobile app.</p>
+        <div class="hero-meta">
+          <div class="hero-meta-item"><strong>Application:</strong> Tawlifa (تَوْلِيفَة)</div>
+          <div class="hero-meta-item"><strong>Package ID:</strong> <code>com.sayasky.tawlifa</code></div>
+          <div class="hero-meta-item"><strong>Developer:</strong> Sharafaldain Al-Sheikh</div>
+          <div class="hero-meta-item"><strong>Last Updated:</strong> October 17, 2026</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container content-wrapper">
+      <!-- Quick Highlights -->
+      <div class="highlights">
+        <div class="highlight-card">
+          <span class="highlight-icon">🛡️</span>
+          <h4>100% Local-First</h4>
+          <p>Your custom spice formulas, cart items, notes, and timers stay strictly on your physical device.</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-icon">🚫</span>
+          <h4>No Account Required</h4>
+          <p>No registration, no password, and zero mandatory personal account creation to use any feature.</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-icon">🔒</span>
+          <h4>Encrypted Telemetry</h4>
+          <p>Diagnostics and anonymous crash logs are transmitted securely via TLS 1.3 / HTTPS to Google Firebase.</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-icon">🚫</span>
+          <h4>Zero Third-Party Ads</h4>
+          <p>No advertising SDKs, no ad profiling, and zero selling or brokering of user data to third parties.</p>
+        </div>
+      </div>
+
+      <!-- Section 1 -->
+      <div class="section-card">
+        <h3>1. Introduction & Overview</h3>
+        <p>
+          Welcome to <strong>Tawlifa</strong> ("we", "our", or "us"). Tawlifa is an authentic culinary arts, heritage recipe discovery, and custom spice blend formulating application designed for culinary enthusiasts worldwide.
+        </p>
+        <p>
+          We are committed to absolute user privacy and data minimization. This Privacy Policy governs the mobile application <strong>Tawlifa</strong> (Application ID: <code>com.sayasky.tawlifa</code>) across Android and mobile platforms. It outlines what minimal data is processed, how it is safeguarded, and how you retain total control over your device data.
+        </p>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="section-card">
+        <h3>2. Information We Do NOT Collect</h3>
+        <p>
+          To maintain an uncompromising privacy standard, Tawlifa is engineered to function autonomously without capturing personal identity metrics. Specifically:
+        </p>
+        <ul>
+          <li><strong>No Identity or Contact Data:</strong> We do not collect names, email addresses, phone numbers, postal addresses, or contacts.</li>
+          <li><strong>No Financial or Payment Data:</strong> The application does not collect credit card numbers, bank accounts, or financial transaction histories.</li>
+          <li><strong>No Location Tracking:</strong> The application does not request, access, or track GPS coordinates, fine location, or coarse location.</li>
+          <li><strong>No Biometric or Sensor Data:</strong> No fingerprint, facial recognition, or physical health sensors are accessed.</li>
+          <li><strong>No Media Snooping:</strong> The application does not read your private gallery photos, documents, microphone recordings, or phone call logs.</li>
+        </ul>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="section-card">
+        <h3>3. On-Device Local Storage (Local-First Architecture)</h3>
+        <p>
+          Tawlifa utilizes encrypted on-device sandbox storage (<code>@react-native-async-storage/async-storage</code>) to store your personal culinary preferences locally. This includes:
+        </p>
+        <ul>
+          <li>Customized spice blend ratios (grams, percentages, Scoville heat levels)</li>
+          <li>Saved favorite recipes and masterclass bookmarks</li>
+          <li>Temporary ingredient shopping lists and checked grocery items</li>
+          <li>Personal notes on cooking instructions and simmer timer states</li>
+          <li>Application interface language preference (Arabic or English) and selected currency</li>
+        </ul>
+        <div class="callout">
+          <strong>Privacy Guarantee:</strong> This local information never leaves your physical mobile device. It is never uploaded to any cloud database, server, or remote repository.
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="section-card">
+        <h3>4. Diagnostics & Analytics (Google Firebase)</h3>
+        <p>
+          To ensure application stability, monitor frame rendering performance, and identify unexpected crashes across various Android devices, Tawlifa integrates official Google Firebase SDKs:
+        </p>
+        <ul>
+          <li>
+            <strong>Firebase Crashlytics (<code>@react-native-firebase/crashlytics</code>):</strong>
+            Collects anonymous stack traces, device model (e.g., Pixel 8, Galaxy S24), operating system version, and low-memory state at the exact time of an unhandled crash to help our engineering team patch defects rapidly.
+          </li>
+          <li>
+            <strong>Firebase Analytics (<code>@react-native-firebase/analytics</code>):</strong>
+            Collects aggregated, pseudonymous usage events (e.g., screen views, recipe catalog clicks, search query volume) to assess which heritage dishes and spices are most engaging. This data cannot be reverse-engineered to identify individual real-world users.
+          </li>
+        </ul>
+        <p>
+          All diagnostic packets are transmitted strictly through modern TLS 1.3 / HTTPS encryption directly to Google Firebase infrastructure and are retained in accordance with Google's enterprise privacy standard.
+        </p>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="section-card">
+        <h3>5. Android Device Permissions Hygiene</h3>
+        <p>
+          Tawlifa requests only the bare minimum runtime and install-time permissions necessary to execute its culinary utilities:
+        </p>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Permission</th>
+                <th>Classification</th>
+                <th>Technical Justification</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>android.permission.INTERNET</code></td>
+                <td>Normal / Network</td>
+                <td>Used to fetch online recipe photography and remote culinary catalog data securely over HTTPS.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.VIBRATE</code></td>
+                <td>Normal / Hardware</td>
+                <td>Used to deliver gentle tactile haptic vibrations during countdown timer alerts and Scoville heat level adjustments.</td>
+              </tr>
+              <tr>
+                <td><code>READ_EXTERNAL_STORAGE</code> (maxSdkVersion=32)</td>
+                <td>Legacy Storage</td>
+                <td>Scoped legacy compatibility for Android 12 and below; not requested or utilized on Android 13+ (API 33+).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="section-card">
+        <h3>6. Google Play Data Safety Questionnaire Cheatsheet</h3>
+        <p>
+          For complete transparency with users and Google Play review auditors, the table below provides our exact declarations for the Google Play Console Data Safety questionnaire:
+        </p>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Data Category</th>
+                <th>Collected?</th>
+                <th>Shared?</th>
+                <th>Processing Type</th>
+                <th>Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Personal Identifiers (Name, Email, Phone)</td>
+                <td><span class="badge-no">No</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>N/A</td>
+                <td>None (No account creation)</td>
+              </tr>
+              <tr>
+                <td>Precise / Coarse Location</td>
+                <td><span class="badge-no">No</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>N/A</td>
+                <td>None (No location access)</td>
+              </tr>
+              <tr>
+                <td>Financial / Payment Info</td>
+                <td><span class="badge-no">No</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>N/A</td>
+                <td>None (No in-app payments)</td>
+              </tr>
+              <tr>
+                <td>Custom Recipes & Spice Blends</td>
+                <td><span class="badge-local">On-Device</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>Local Sandbox</td>
+                <td>Core app functionality</td>
+              </tr>
+              <tr>
+                <td>Crash Logs & Stack Traces</td>
+                <td><span class="badge-yes">Yes</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>Encrypted Transit</td>
+                <td>Analytics & App Stability (Firebase)</td>
+              </tr>
+              <tr>
+                <td>Aggregated App Interactions</td>
+                <td><span class="badge-yes">Yes</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>Encrypted Transit</td>
+                <td>Feature optimization (Firebase)</td>
+              </tr>
+              <tr>
+                <td>Device or Other IDs</td>
+                <td><span class="badge-yes">Yes</span></td>
+                <td><span class="badge-no">No</span></td>
+                <td>Encrypted Transit</td>
+                <td>Pseudonymous Firebase Instance ID</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Data Encryption:</strong> All collected telemetry is transferred over secure HTTPS/TLS.</p>
+        <p><strong>Account Deletion Mandate:</strong> Because Tawlifa does not maintain user accounts on remote servers, no cloud account deletion mechanism is required. All personal data is wiped when clearing storage or uninstalling.</p>
+      </div>
+
+      <!-- Section 7 -->
+      <div class="section-card">
+        <h3>7. Data Retention & Deletion Policy</h3>
+        <p>
+          Because all your culinary preferences and spice formulas reside strictly on your physical device, you retain total, irrevocable control over their retention and deletion:
+        </p>
+        <ol>
+          <li><strong>In-App Deletion:</strong> You can reset your recent search queries and remove shopping cart items directly within the app at any time.</li>
+          <li><strong>System-Level Wiping:</strong> You can permanently clear all on-device data by opening Android <em>Settings &gt; Apps &gt; Tawlifa &gt; Storage &gt; Clear Data</em>.</li>
+          <li><strong>Application Uninstallation:</strong> Uninstalling Tawlifa immediately triggers the Android OS to delete the isolated application sandbox, wiping all stored data permanently.</li>
+        </ol>
+      </div>
+
+      <!-- Section 8 -->
+      <div class="section-card">
+        <h3>8. Children's Privacy (COPPA Compliance)</h3>
+        <p>
+          Tawlifa is a general-audience culinary utility intended for cooks, chefs, and culinary art enthusiasts aged 13 and above. We do not knowingly collect, request, or solicit any personal identifiable information from children under the age of 13. If you believe a child has provided us with personal data, please contact us immediately and we will take immediate measures to address it.
+        </p>
+      </div>
+
+      <!-- Section 9 -->
+      <div class="section-card">
+        <h3>9. Native Recipe Sharing</h3>
+        <p>
+          When sharing recipes or ingredient checklists, Tawlifa invokes your device's native Android Share sheet. The text is passed directly to the destination app you choose (such as WhatsApp, Telegram, Gmail, or Messages). Tawlifa has no access to your third-party account credentials or recipient lists.
+        </p>
+      </div>
+
+      <!-- Section 10 -->
+      <div class="section-card">
+        <h3>10. Changes to This Privacy Policy</h3>
+        <p>
+          We may update this Privacy Policy from time to time to reflect modifications in regulatory policies, Google Play Store requirements, or application capabilities. The updated version will always be published with a revised "Last Updated" timestamp at this URL.
+        </p>
+      </div>
+
+      <!-- Section 11 -->
+      <div class="section-card">
+        <h3>11. Publisher & Contact Information</h3>
+        <p>
+          If you have any questions, inquiries, or feedback regarding this Privacy Policy or data safety in Tawlifa, please reach out to:
+        </p>
+        <ul>
+          <li><strong>Publisher / Lead Architect:</strong> Sharafaldain Al-Sheikh</li>
+          <li><strong>Official Email:</strong> <a href="mailto:sharafaldain@nexumind.com">sharafaldain@nexumind.com</a></li>
+          <li><strong>GitHub Repository:</strong> <a href="https://github.com/Brosfeer/tawlifa-mobile" target="_blank" rel="noopener">https://github.com/Brosfeer/tawlifa-mobile</a></li>
+          <li><strong>Legal Hosting:</strong> <a href="https://github.com/Brosfeer/tawlifa-policy" target="_blank" rel="noopener">https://github.com/Brosfeer/tawlifa-policy</a></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- ARABIC VERSION (RTL / Authentic Naskh)     -->
+  <!-- ========================================== -->
+  <div id="content-ar" class="lang-content">
+    <!-- Hero Banner -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge">✓ سياسة معتمدة ومطابقة لمتطلبات متجر جوجل بلاي</div>
+        <h2>سياسة الخصوصية والإفصاحات القانونية</h2>
+        <p>معلومات شاملة وتفصيلية حول حماية البيانات، خصوصية المستخدم، وضوابط الأذونات لتطبيق تَوْلِيفَة للهواتف المحمولة.</p>
+        <div class="hero-meta">
+          <div class="hero-meta-item"><strong>اسم التطبيق:</strong> تَوْلِيفَة (Tawlifa)</div>
+          <div class="hero-meta-item"><strong>معرف الحزمة (Package ID):</strong> <code>com.sayasky.tawlifa</code></div>
+          <div class="hero-meta-item"><strong>المطور والناشر:</strong> شرف الدين الشيخ (Sharafaldain Al-Sheikh)</div>
+          <div class="hero-meta-item"><strong>تاريخ آخر تحديث:</strong> 17 أكتوبر 2026</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container content-wrapper">
+      <!-- Quick Highlights -->
+      <div class="highlights">
+        <div class="highlight-card">
+          <span class="highlight-icon">🛡️</span>
+          <h4>تخزين محلي 100%</h4>
+          <p>خلطات بهاراتك الخاصة، ملاحظات الطهي، وقوائم المشتريات تبقى محفوظة داخل جهازك فقط.</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-icon">🚫</span>
+          <h4>بدون حسابات أو تسجيل</h4>
+          <p>لا نطلب منك إنشاء حساب، بريد إلكتروني، أو كلمة مرور للاستمتاع بجميع ميزات التطبيق.</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-icon">🔒</span>
+          <h4>تشخيصات مشفرة وآمنة</h4>
+          <p>سجلات الأعطال المجهولة تُرسل بأمان تام عبر بروتوكول TLS 1.3 / HTTPS إلى Firebase.</p>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-icon">🚫</span>
+          <h4>خالٍ تماماً من الإعلانات</h4>
+          <p>لا نستخدم أي شبكات إعلانية، ولا نقوم بتتبعك عبر التطبيقات أو بيع أي بيانات لأطراف ثالثة.</p>
+        </div>
+      </div>
+
+      <!-- Section 1 -->
+      <div class="section-card">
+        <h3>1. مقدمة ونظرة عامة</h3>
+        <p>
+          أهلاً بكم في تطبيق <strong>تَوْلِيفَة (Tawlifa)</strong>. تَوْلِيفَة هو تطبيق احترافي لفنون الطهي واكتشاف الوصفات التراثية وابتكار تركيبات البهارات والتوابل، صُمم خصيصاً لعشاق الطبخ الأصيل.
+        </p>
+        <p>
+          نلتزم في تَوْلِيفَة بأعلى معايير الخصوصية وتقليل جمع البيانات إلى الحد الأدنى الصارم. تنطبق سياسة الخصوصية هذه على تطبيق <strong>تَوْلِيفَة</strong> (معرف التطبيق: <code>com.sayasky.tawlifa</code>) على نظام أندرويد. توضح هذه الوثيقة البيانات التي تتم معالجتها، وكيفية حمايتها، وكيف تحتفظ بكامل التحكم في بياناتك.
+        </p>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="section-card">
+        <h3>2. البيانات التي لا نقوم بجمعها إطلاقاً</h3>
+        <p>
+          حفاظاً على خصوصيتك المطلقة، تم تصميم هندسة التطبيق ليعمل باستقلالية تامة دون جمع أي بيانات هوية شخصية:
+        </p>
+        <ul>
+          <li><strong>لا بيانات هوية أو اتصال:</strong> لا نجمع الأسماء، العناوين البريدية، أرقام الهواتف، جهات الاتصال، أو الصور الشخصية.</li>
+          <li><strong>لا بيانات مالية:</strong> لا يطلب التطبيق أرقام البطاقات الائتمانية أو الحسابات البنكية أو معلومات الدفع.</li>
+          <li><strong>لا تتبع للموقع الجغرافي:</strong> لا يطلب التطبيق ولا يستخدم إحداثيات GPS أو موقعك الدقيق أو التقريبي.</li>
+          <li><strong>لا بيانات حيوية (بصمات أو وجه):</strong> لا يصل التطبيق إلى أي مستشعرات بيومترية.</li>
+          <li><strong>لا وصول للملفات الخاصة:</strong> لا يقرأ التطبيق ملفاتك الخاصة، صورك في المعرض، تسجيلات الميكروفون، أو سجل المكالمات.</li>
+        </ul>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="section-card">
+        <h3>3. التخزين المحلي على جهازك (Local-First Architecture)</h3>
+        <p>
+          يستخدم التطبيق مساحة التخزين المعزولة محلياً داخل جهازك عبر تقنية (<code>AsyncStorage</code>) لحفظ تفضيلاتك:
+        </p>
+        <ul>
+          <li>نسب خلطات البهارات المخصصة ومستويات حرارة سكوفيل المقاسة</li>
+          <li>الوصفات المفضلة التي قمت بحفظها ومؤشرات التحضير</li>
+          <li>قوائم تسوق المكونات وعناصر سلة المشتريات المؤقتة</li>
+          <li>الملاحظات الشخصية على الوصفات وحالة مؤقتات التسوية (Simmer Timers)</li>
+          <li>لغة الواجهة المفضلة (العربية أو الإنجليزية) والعملة المختارة</li>
+        </ul>
+        <div class="callout">
+          <strong>ضمان الخصوصية:</strong> هذه البيانات لا تغادر جهازك المحمول أبداً، ولا تُرفع إلى أي خادم خارجي أو قاعدة بيانات سحابية.
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="section-card">
+        <h3>4. التشخيصات وسجلات الأعطال (Google Firebase)</h3>
+        <p>
+          لضمان استقرار التطبيق والحد من حالات الإغلاق المفاجئ عبر مختلف أجهزة أندرويد، يعتمد التطبيق على حزم مطوري Google Firebase الرسمية:
+        </p>
+        <ul>
+          <li>
+            <strong>سجلات الأعطال (Firebase Crashlytics):</strong>
+            تجمع تقارير تقنية مجهولة المصدر تحتوي على تفاصيل الخطأ البرمجي، طراز الجهاز (مثل Galaxy أو Pixel)، وإصدار نظام أندرويد لمساعدة فريق التطوير على إصلاح الأعطال بسرعة.
+          </li>
+          <li>
+            <strong>تحليلات التفاعل (Firebase Analytics):</strong>
+            تجمع مؤشرات استخدام مجمعة ومجهولة (مثل استعراض الوصفات، الكلمات الشائعة في البحث عن البهارات) لفهم اهتمامات المستخدمين وتطوير المحتوى. لا يمكن من خلال هذه البيانات تحديد هوية أي مستخدم شخصياً.
+          </li>
+        </ul>
+        <p>
+          يتم نقل كافة تقارير التشخيصات مشفرة بالكامل عبر بروتوكولات الأمان القياسية (TLS 1.3 / HTTPS) مباشرة إلى خوادم Google Firebase الآمنة.
+        </p>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="section-card">
+        <h3>5. أذونات نظام أندرويد ومسوغات استخدامها</h3>
+        <p>
+          يطلب التطبيق الحد الأدنى فقط من أذونات أندرويد الضرورية لتشغيل الوظائف الأساسية:
+        </p>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>الإذن (Permission)</th>
+                <th>نوع الإذن</th>
+                <th>المبرر التقني للطلب</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>android.permission.INTERNET</code></td>
+                <td>أمان قياسي / شبكة</td>
+                <td>لتحميل صور الوصفات والكتالوج المحدث من الخادم بأمان عبر HTTPS.</td>
+              </tr>
+              <tr>
+                <td><code>android.permission.VIBRATE</code></td>
+                <td>أمان قياسي / عتاد</td>
+                <td>لتشغيل نبضات لمسية خفيفة (Haptics) عند انتهاء مؤقتات الطبخ وضبط درجات الحرارة.</td>
+              </tr>
+              <tr>
+                <td><code>READ_EXTERNAL_STORAGE</code> (maxSdkVersion=32)</td>
+                <td>توافقية قديمة</td>
+                <td>إذن توافق للأجهزة القديمة (أندرويد 12 وما قبله)، ولا يُطلب على أندرويد 13 فما فوق.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="section-card">
+        <h3>6. جدول إفصاح أمان البيانات لمتجر جوجل بلاي (Data Safety)</h3>
+        <p>
+          لمساعدة فريق مراجعة جوجل بلاي والمستخدمين على مطابقة إعلانات أمان البيانات، يوضح الجدول التالي الإفصاحات الرسمية:
+        </p>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>نوع البيانات</th>
+                <th>هل تُجمع؟</th>
+                <th>هل تُشارك؟</th>
+                <th>نوع المعالجة</th>
+                <th>الغرض الأساسي</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>الهوية الشخصية (الاسم، البريد، الهاتف)</td>
+                <td><span class="badge-no">لا</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>غير متوفر</td>
+                <td>لا يوجد (لا يتطلب حسابات)</td>
+              </tr>
+              <tr>
+                <td>الموقع الجغرافي (دقيق أو تقريبي)</td>
+                <td><span class="badge-no">لا</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>غير متوفر</td>
+                <td>لا يوجد (لا يستخدم الموقع)</td>
+              </tr>
+              <tr>
+                <td>البيانات المالية وطرق الدفع</td>
+                <td><span class="badge-no">لا</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>غير متوفر</td>
+                <td>لا يوجد (لا توجد مدفوعات داخل التطبيق)</td>
+              </tr>
+              <tr>
+                <td>خلطات البهارات والوصفات المحفوظة</td>
+                <td><span class="badge-local">محلياً بالجهاز</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>تخزين محلي معزول</td>
+                <td>تشغيل وظائف التطبيق الرئيسية</td>
+              </tr>
+              <tr>
+                <td>سجلات الأعطال والأخطاء البرمجية</td>
+                <td><span class="badge-yes">نعم</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>نقل مشفر (TLS)</td>
+                <td>تشخيص الأعطال واستقرار التطبيق (Firebase)</td>
+              </tr>
+              <tr>
+                <td>أداء التفاعل وتكرار الشاشات</td>
+                <td><span class="badge-yes">نعم</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>نقل مشفر (TLS)</td>
+                <td>تحسين تجربة الاستخدام (Firebase)</td>
+              </tr>
+              <tr>
+                <td>معرفات الجهاز التقنية المجهولة</td>
+                <td><span class="badge-yes">نعم</span></td>
+                <td><span class="badge-no">لا</span></td>
+                <td>نقل مشفر (TLS)</td>
+                <td>معرف نسخة Firebase المؤقت للمصادقة التقنية</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>تشفير البيانات:</strong> كافة البيانات المنقولة مشفرة عبر اتصال آمن (HTTPS / TLS).</p>
+        <p><strong>حذف الحساب والبيانات:</strong> نظراً لعدم وجود حسابات مسجلة على خوادم سحابية، فإن مسح بيانات التطبيق أو إلغاء تثبيته يحذف كافة البيانات فورياً وبشكل نهائي.</p>
+      </div>
+
+      <!-- Section 7 -->
+      <div class="section-card">
+        <h3>7. سياسة الاحتفاظ بالبيانات وحذفها بالكامل</h3>
+        <p>
+          نظراً لأن جميع تفضيلاتك وخلطاتك مخزنة فقط داخل هاتفك، فإنك تتمتع بالتحكم الكامل في حذفها في أي لحظة:
+        </p>
+        <ol>
+          <li><strong>الحذف من داخل التطبيق:</strong> يمكنك مسح سجل البحث وعناصر السلة من داخل واجهة التطبيق مباشرة.</li>
+          <li><strong>مسح بيانات التطبيق من النظام:</strong> يمكنك مسح جميع البيانات المخزنة من إعدادات أندرويد عبر: <em>الإعدادات &gt; التطبيقات &gt; تَوْلِيفَة &gt; مساحة التخزين &gt; مسح البيانات</em>.</li>
+          <li><strong>إلغاء التثبيت:</strong> يؤدي حذف التطبيق من هاتفك إلى مسح كافة البيانات والملفات المؤقتة نهائياً من الذاكرة دون أي إمكانية لاسترجاعها.</li>
+        </ol>
+      </div>
+
+      <!-- Section 8 -->
+      <div class="section-card">
+        <h3>8. خصوصية الأطفال (COPPA)</h3>
+        <p>
+          تطبيق تَوْلِيفَة موجه للجمهور العام من الطهاة والمهتمين بالطهي وفنون التوابل بعمر 13 عاماً فما فوق. ولا يقوم التطبيق بطلب أو جمع أي معلومات تعريف شخصية من الأطفال دون سن 13 عاماً. وإذا تبيّن لنا تزويدنا بأي بيانات تخص طفلاً دون سن 13، فسنتخذ الإجراءات الفورية لمعالجتها وحذفها.
+        </p>
+      </div>
+
+      <!-- Section 9 -->
+      <div class="section-card">
+        <h3>9. مشاركة الوصفات عبر التطبيقات الأخرى</h3>
+        <p>
+          عند رغبتك في مشاركة وصفة أو قائمة مقادير، يستخدم التطبيق قائمة المشاركة الأصلية لنظام أندرويد. يتم إرسال النص حصرياً إلى التطبيق الذي تختاره أنت يدوياً (مثل واتساب، تيليجرام، الرسائل). لا يملك تَوْلِيفَة أي اطلاع على حساباتك أو محادثاتك في تلك التطبيقات.
+        </p>
+      </div>
+
+      <!-- Section 10 -->
+      <div class="section-card">
+        <h3>10. التعديلات على سياسة الخصوصية</h3>
+        <p>
+          قد نقوم بتحديث سياسة الخصوصية هذه بصورة دورية لمواكبة التحديثات التنظيمية أو متطلبات متجر جوجل بلاي. سيتم نشر أي تحديث فوراً على هذا الرابط مع تحديث تاريخ المراجعة.
+        </p>
+      </div>
+
+      <!-- Section 11 -->
+      <div class="section-card">
+        <h3>11. معلومات المطور والتواصل</h3>
+        <p>
+          إذا كانت لديك أي استفسارات أو ملاحظات بخصوص سياسة الخصوصية أو أمان البيانات في تَوْلِيفَة، يسعدنا تواصلكم عبر الوسائل التالية:
+        </p>
+        <ul>
+          <li><strong>المطور والمهندس الرئيسي:</strong> شرف الدين الشيخ (Sharafaldain Al-Sheikh)</li>
+          <li><strong>البريد الإلكتروني المعتمد:</strong> <a href="mailto:sharafaldain@nexumind.com">sharafaldain@nexumind.com</a></li>
+          <li><strong>مستودع الكود:</strong> <a href="https://github.com/Brosfeer/tawlifa-mobile" target="_blank" rel="noopener">https://github.com/Brosfeer/tawlifa-mobile</a></li>
+          <li><strong>صفحة السياسة العامة:</strong> <a href="https://github.com/Brosfeer/tawlifa-policy" target="_blank" rel="noopener">https://github.com/Brosfeer/tawlifa-policy</a></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Tawlifa (تَوْلِيفَة) — Developed by <a href="https://github.com/Brosfeer" target="_blank" rel="noopener">Sharafaldain Al-Sheikh</a>. All rights reserved.</p>
+      <p style="margin-top: 6px; font-size: 0.8rem; color: var(--slate-400);">Hosted via GitHub Pages at <a href="https://brosfeer.github.io/tawlifa-policy/">https://brosfeer.github.io/tawlifa-policy/</a></p>
+    </div>
+  </footer>
+
+  <!-- Language Switch Script -->
+  <script>
+    function toggleLanguage() {
+      const enContent = document.getElementById('content-en');
+      const arContent = document.getElementById('content-ar');
+      const langLabel = document.getElementById('langLabel');
+      const htmlTag = document.documentElement;
+      const bodyTag = document.body;
+
+      if (enContent.classList.contains('active')) {
+        // Switch to Arabic
+        enContent.classList.remove('active');
+        arContent.classList.add('active');
+        htmlTag.setAttribute('lang', 'ar');
+        htmlTag.setAttribute('dir', 'rtl');
+        bodyTag.classList.add('lang-ar');
+        langLabel.textContent = 'English';
+        localStorage.setItem('tawlifa_policy_lang', 'ar');
+      } else {
+        // Switch to English
+        arContent.classList.remove('active');
+        enContent.classList.add('active');
+        htmlTag.setAttribute('lang', 'en');
+        htmlTag.setAttribute('dir', 'ltr');
+        bodyTag.classList.remove('lang-ar');
+        langLabel.textContent = 'العربية';
+        localStorage.setItem('tawlifa_policy_lang', 'en');
+      }
+    }
+
+    // Initialize preferred language from localStorage or default to English
+    (function initLang() {
+      const savedLang = localStorage.getItem('tawlifa_policy_lang');
+      if (savedLang === 'ar') {
+        toggleLanguage();
+      }
+    })();
+  </script>
+</body>
+</html>
