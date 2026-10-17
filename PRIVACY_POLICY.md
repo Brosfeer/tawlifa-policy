@@ -89,6 +89,6 @@ If you have questions or feedback regarding this Privacy Policy:
 
 ---
 
-*© 2026 Tawlifa (تَوْلِيفَة) — Developed by SayaSky.*  
+*© 2026 Tawlifa (تَوْلِيفَة) — Crafted with ❤️ by SayaSky.*  
 *Support & Inquiries: [alsheikh0202@gmail.com](mailto:alsheikh0202@gmail.com)*
 
